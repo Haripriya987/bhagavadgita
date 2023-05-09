@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagavad Gita</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+
+
+
+    <!-- Favicon favicon.io -->
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon1.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon2-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon3-16x16.png">
+        <link rel="icon" type="image/x-icon" href="img/favicon4.ico">
+    <!-- End of Favicon Links-->
+</head>
+
+<body>
+    <div class="one"> 
+      <i class="fa-solid fa-play"  class="two"></i>
+       <!--  <button id="pausebtn1"><i class="fa-solid fa-pause"></i></button>-->
+        <i class="fa-solid fa-play fa-rotate-180" class="two"></i>
+        <!--<button id="pausebtn2"><i class="fa-solid fa-pause"></i></button>-->
+       </div>
+       <audio src="BhagwatGeeta.mp3" type="audio/mpeg"></audio> 
+       <audio src="krishnaflute.mp3" type="audio/mpeg"></audio>  
+    <div class="content">
+       <div onload="divToImg()" class="cont">  
+          <div id="parent">
+        <h1 id="title" class="glow">Bhagavad Gita</h1>
+        <div class="demo">
+            <img src="img/gita11.jpg" width="300px" height="350px" alt="image is not available">
+            <h1 id="demo" class="quote">Through selfless service, you will always be fruitful and find the fulfillment of your desires.</h1>
+        </div>
+         <a id="download" class="glow">Download</a>
+         <button onclick="change()" class="btn"><b>Next</b></button>
+    </div>
+    </div>
+    <div id="links"> 
+        <a id="link1" class="glow" href="english.html" target="">Read Gita in English</a>
+        <a id="link2" class="glow" href="telugu.html" target="">Read Gita in Telugu</a>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
